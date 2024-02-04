@@ -1,0 +1,29 @@
+{
+  "name": "belajar_nodejs_database",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Thariq Maulana",
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.7",
+    "@babel/preset-env": "^7.23.9",
+    "@types/jest": "^29.5.11",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.9.0",
+    "supertest": "6.3.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.9.0"
+  }
+}
